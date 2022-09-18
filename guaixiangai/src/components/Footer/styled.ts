@@ -4,6 +4,6 @@ export const FooterWrapper = styled.div`
   position: fixed;
   bottom: 20px;
   span {
-    color: #999;
+    color: #666666;
   }
 `
