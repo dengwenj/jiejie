@@ -10,7 +10,7 @@ export const AppWrapper = styled.div`
   right: 0;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding: 50px 16px 0 16px;
   background: url(${bgi});
   background-size: cover;
 `

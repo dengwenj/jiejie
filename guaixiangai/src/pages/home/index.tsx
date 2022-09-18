@@ -1,15 +1,22 @@
+import { useNavigate } from 'react-router-dom'
 import { Button } from 'antd'
 
 import { HomeWrapper } from './styled'
 import { modeList } from './conf'
 
 export default function Home() {
+  const navigate = useNavigate()
+
   /**
    * 处理函数
    */
   // 点击模式
   const handleClickMode = (mode: number) => {
-    console.log(mode, '那种模式')
+    navigate('/game', { 
+      state: {
+        mode
+      }
+    })
   }
 
   return (
