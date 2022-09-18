@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <HomeWrapper>
       <h2 style={{ margin: 0 }}>怪像哎</h2>
-      <h3 style={{ margin: '16px 0' }}>设计灵感来源于《羊了个羊》</h3>
+      <div style={{ margin: '16px 0' }}>设计灵感来源于《羊了个羊》</div>
       <div style={{ width: '100%' }}>
         {
           modeList.map((item) => (
